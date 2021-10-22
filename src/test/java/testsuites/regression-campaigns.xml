@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="first-suite" verbose="1" >
+    <test name="v1.0-Reg" parallel = "classes" thread-count = "2">
+        <classes>
+            <class name="org.example.src.DashboardPageTest"/>
+            <class name="org.example.src.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
